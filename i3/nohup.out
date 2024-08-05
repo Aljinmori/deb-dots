@@ -1,0 +1,40 @@
+polybar|notice:  Parsing config file: /home/hivo/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 26177)
+polybar|notice:  Loading module 'launcher' of type 'custom/text'
+polybar|error: Invalid value for "module/launcher.content-foreground", using default value (reason: The reference ${colors.primary} does not exist (no fallback set))
+polybar|error: Invalid value for "module/launcher.content-background", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|error: Invalid value for "module/launcher.content-underline", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|error: Invalid value for "module/launcher.content-overline", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|notice:  Loading module 'i3' of type 'internal/i3'
+polybar|error: Invalid value for "module/i3.format-background", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|error: Disabling module "xworkspaces" (reason: Missing section "module/xworkspaces")
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|error: Disabling module "brightness" (reason: Missing section "module/brightness")
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|error: Invalid value for "module/xkeyboard.label-indicator-foreground", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|error: Disabling module "alsa" (reason: Missing section "module/alsa")
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1b.0.analog-stereo
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|error: Invalid value for "module/battery.format-charging-background", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|error: Invalid value for "module/battery.format-charging-underline", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|error: Invalid value for "module/battery.format-discharging-background", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|error: Invalid value for "module/battery.format-discharging-underline", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|notice:  Loading module 'wifi' of type 'internal/network'
+polybar|error: Invalid value for "module/wifi.format-connected-underline", using default value (reason: "#00000000  # Fully transparent background" is an invalid color value.)
+polybar|error: Invalid value for "module/wifi.format-disconnected-foreground", using default value (reason: The reference ${colors.menucol-yellow} does not exist (no fallback set))
+polybar|error: Invalid value for "module/wifi.format-disconnected-underline", using default value (reason: The reference ${colors.menucol-yellow} does not exist (no fallback set))
+polybar|error: Invalid value for "module/wifi.ramp-signal-foreground", using default value (reason: The reference ${colors.light} does not exist (no fallback set))
+polybar|notice:  Loading module 'powermenu' of type 'custom/text'
+polybar|error: Invalid value for "module/powermenu.content-underline", using default value (reason: The reference ${colors.menucol-white} does not exist (no fallback set))
+polybar|notice:  Loading module 'options_open' of type 'custom/text'
+polybar|notice:  Loaded 12 modules
+polybar|notice:  Loaded font "fa-solid-900:size=10" (name=DejaVu Sans, offset=1, file=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf)
+polybar|notice:  Loaded font "HackNerdFontPropo-Italic:size=10" (name=Hack Nerd Font Propo, offset=1, file=/usr/share/fonts/Hack/HackNerdFontPropo-Regular.ttf)
+polybar|notice:  Loaded font "siji:pixelsize=10" (name=DejaVu Sans, offset=1, file=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf)
+polybar|notice:  Received signal(2): Interrupt
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)

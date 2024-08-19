@@ -1,0 +1,7 @@
+@theme "/home/hivo/.config/rofi/themes/spotlight-dark.rasi"
+
+configuration {
+    border: 2;  /* Border width */
+    border-color: #555555;  /* Border color */
+    padding: 10;  /* Padding around the entries */
+}

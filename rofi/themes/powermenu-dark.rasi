@@ -1,0 +1,86 @@
+* {
+    font:   "RecMono 12";
+
+    bg0:    #242424B3;
+    bg1:    #8787AF4D;
+    bg2:    #0860f2E6;
+    bg3:    #00000020;
+
+    fg0:    #DEDEDE;
+    fg1:    #FFFFFF;
+    fg2:    #DEDEDE80;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     1;
+    padding:    0;
+    spacing:    0;
+}
+
+window {
+    background-color:   @bg3;
+
+    location: northeast;
+    height:         210;
+    width:          60; /* Adjust the width if necessary */
+    border-radius:  10;
+    border: 0px;
+    border-color: #555555;
+    padding: 6px;
+    fixed-num-lines: true;
+    children: [listview];
+
+    x-offset:           -30; /* Adjust the horizontal offset */
+    y-offset:           40; /* Adjust the vertical offset */
+}
+
+message {
+    border:             0px 0 0;
+    border-color:       @bg1;
+    background-color:   @bg1;
+}
+
+textbox {
+    padding:   0px 3px;
+    border:             0px 0 0;
+    border-color:       @bg1;
+}
+
+listview {
+    lines:      1;
+    columns:    4; /* Number of options */
+    fixed-height:   true;
+    border:         0px; /* Border around the options list */
+    border-color:   @bg1;
+    padding: 0px;
+    horizontal-align: 1.1; /* Center horizontally */
+    spacing: 7px; /* Add some spacing between elements */
+}
+
+element {
+    padding:            10px 10px; /* Adjust padding to center */
+    spacing:            0px;
+    background-color:   transparent;
+    border: 1px;
+    border-radius: 5px; /* rounded corners */
+    border-color: #555555;
+    margin: 0;
+}
+
+element normal active {
+    text-color: @bg2;
+}
+
+element selected normal, element selected active {
+    background-color:   @bg1;
+    text-color:         @fg1;
+}
+
+element-icon {
+    size:    0em;
+}
+
+element-text {
+    text-color: inherit;
+}

@@ -1,0 +1,82 @@
+* {
+    font:   "RecMono 12";
+
+    bg0:    #242424B3;
+    bg1:    #8787AF4D;
+    bg2:    #0860f2E6;
+    bg3:    #00000020;
+
+    fg0:    #DEDEDE;
+    fg1:    #FFFFFF;
+    fg2:    #DEDEDE80;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
+}
+
+window {
+    background-color:   @bg3;
+
+    location: north;
+    height:         45;
+    width:          230; /* Adjust the width if necessary */
+    border-radius:  10;
+    border: 0px;
+    border-color: #555555;
+    padding: 1px;
+    fixed-num-lines: true;
+    children: [listview];
+
+    x-offset:           6; /* Adjust the horizontal offset */
+    y-offset:           40; /* Adjust the vertical offset */
+}
+
+message {
+    border:             0px 0 0;
+    border-color:       @bg1;
+    background-color:   @bg1;
+}
+
+textbox {
+    padding:   4px 8px;
+    border:             0px 0 0;
+    border-color:       @bg1;
+}
+
+listview {
+    lines:      1;
+    columns:    1; /* Number of options */
+    fixed-height:   true;
+    border:         0px; /* Border around the options list */
+    padding: 0px;
+    horizontal-align: 0.5; /* Center horizontally */
+    spacing: 7px; /* Add some spacing between elements */
+}
+
+element {
+    padding:            10px 0px; /* Adjust padding to center */
+    spacing:            0px;
+    background-color:   transparent;
+    border: 1px;
+    border-radius: 5px; /* rounded corners */
+    margin: 0;
+}
+
+element normal active {
+}
+
+element selected normal, element selected active {
+    text-color:         @fg1;
+}
+
+element-icon {
+    size:    1.1em;
+}
+
+element-text {
+    text-color: inherit;
+}

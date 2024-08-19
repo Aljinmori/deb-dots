@@ -1,0 +1,108 @@
+/*******************************************************************************
+ * MACOS SPOTLIGHT LIKE DARK THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+* {
+    font:   "RecMono 12";
+
+    bg0:    #242424B3;
+    bg1:    #8787AF4D;
+    bg2:    #0860f2E6;
+    bg3:    #00000020;
+
+    fg0:    #DEDEDE;
+    fg1:    #FFFFFF;
+    fg2:    #DEDEDE80;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     1;
+    padding:    1;
+    spacing:    1;
+}
+
+configuration {
+    show-icons: true;
+}
+
+window {
+    background-color:   @bg3;
+
+    location: 0;
+    anchor: center;
+    width:          460;
+    border-radius:  8;
+    border: 0px;
+    border-color: #555555;
+    padding: 10px;
+}
+
+inputbar {
+    font:       "RecMono 15";
+    padding:    5px;
+    spacing:    2px;
+    children:   [ icon-search, entry ];
+}
+
+icon-search {
+    expand:     false;
+    filename:   "search";
+    size: 1px;
+}
+
+icon-search, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+entry {
+    font:   inherit;
+
+    placeholder         : "  search ";
+    placeholder-color   : @fg2;
+}
+
+message {
+    border:             2px 0 0;
+    border-color:       @bg1;
+    background-color:   @bg1;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    lines:      5;
+    columns:    1;
+
+    fixed-height:   true;
+    border:         1px 0 0;
+    border-color:   @bg1;
+    padding: 10px;
+}
+
+element {
+    padding:            8px 16px;
+    spacing:            16px;
+    background-color:   transparent;
+}
+
+element normal active {
+    text-color: @bg2;
+}
+
+element selected normal, element selected active {
+    background-color:   @bg1;
+    text-color:         @fg1;
+}
+
+element-icon {
+    size:   1em;
+}
+
+element-text {
+    text-color: inherit;
+}

@@ -1,0 +1,4 @@
+[module/i3-tiny]
+type = internal/i3
+format = <label-state>
+index-sort = fals

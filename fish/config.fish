@@ -11,9 +11,9 @@ fastfetch
 ##--------------------------------------------##
 
 # Created by `pipx` on 2024-06-09 20:26:40
-set PATH $PATH /home/hivo/.local/bin
+set PATH $PATH /home/--user--/.local/bin
 
-fish_add_path /home/hivo/.spicetify
+fish_add_path /home/--user--/.spicetify
 
 set -x SPOTIPY_CLIENT_ID '6bf8c4d08295475b9dc1f76844cd50ad'
 set -x SPOTIPY_CLIENT_SECRET '0c04dd8a15334550bb40897e7362e3c5'

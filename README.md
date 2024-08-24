@@ -15,6 +15,8 @@ depends
 - rofi 
 - picom
 - fastfetch
+- nitrogen (wallpapers)
+- Amberol (music player)
 - nm-applet
 - [FontAwesome](https://github.com/FortAwesome/Font-Awesome)
 ---------

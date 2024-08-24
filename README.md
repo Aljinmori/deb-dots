@@ -11,7 +11,7 @@ depends
 -------
 - shell : fish
 - terminal : kitty 
-- bar : polybar
+- [polybar](https://github.com/jaagr/polybar)
 - rofi 
 - picom
 - fastfetch

@@ -9,21 +9,13 @@ How It's looks :
 --------------------------
 depends 
 -------
-shell : fish
-------------
-terminal : kitty 
-----------------
-bar : polybar 
--------------
-rofi 
-----
-picom
-------
-fastfetch
+- shell : fish
+- terminal : kitty 
+- bar : polybar
+- rofi 
+- picom
+- fastfetch
 ---------
-theme : Vortex-GTK
-------------------
-icons : Papirus
----------------
-fonts : MartianMono Nerd
-------------------------
+- theme : Vortex-GTK
+- icons : Papirus
+- fonts : MartianMono Nerd

@@ -10,12 +10,20 @@ How It's looks :
 depends 
 -------
 shell : fish
+------------
 terminal : kitty 
+----------------
 bar : polybar 
+-------------
 rofi 
-picom 
+----
+picom
+------
 fastfetch
 ---------
 theme : Vortex-GTK
+------------------
 icons : Papirus
+---------------
 fonts : MartianMono Nerd
+------------------------

@@ -15,6 +15,8 @@ depends
 - rofi 
 - picom
 - fastfetch
+- nm-applet
+- [FontAwesome](https://github.com/FortAwesome/Font-Awesome)
 ---------
 - theme : Vortex-GTK
 - icons : Papirus

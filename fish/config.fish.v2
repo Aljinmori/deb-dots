@@ -11,7 +11,7 @@ fastfetch
 ##--------------------------------------------##
 
 # Created by `pipx` on 2024-06-09 20:26:40
-set PATH $PATH /home/hivo/.local/bin
+set PATH $PATH /home/user/.local/bin
 
 ##--------------------------------------------##
 alias la='ls -a'

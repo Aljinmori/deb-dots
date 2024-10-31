@@ -1,0 +1,230 @@
+include-file = ~/.config/polybar/modules/date.ini
+include-file = ~/.config/polybar/modules/tray.ini
+include-file = ~/.config/polybar/modules/cava.ini
+include-file = ~/.config/polybar/modules/battery.ini
+include-file = ~/.config/polybar/modules/redshift.ini
+include-file = ~/.config/polybar/modules/powermenu.ini
+include-file = ~/.config/polybar/modules/xkeyboard.ini
+include-file = ~/.config/polybar/modules/pulseaudio.ini
+include-file = ~/.config/polybar/modules/temperature.ini
+include-file = ~/.config/polybar/colors.ini
+include-file = ~/.config/polybar/modules/workspaces.ini
+[bar/bar1]
+monitor = LVDS-1
+;Postioning and stuff
+top = true
+fixed-center = true
+width = 10%
+height = 30
+override-redirect = true
+wm-restack = i3
+
+;Offsets
+offset-x = 3%
+offset-y = 2
+
+;Colors
+;background = #40FFFFFF
+background = #40000000
+foreground = ${colors.foreground}
+
+;font-0 = "fa-solid-900:size=10;1"
+font-0 = "fa-solid-900:size=10;1"
+font-1 = "HackNerdFontPropo-Italic:size=10;1"
+
+;Borders
+border-size = 0
+border-color = ${colors.background}
+radius = 0.0
+
+;Padding
+padding-left = 10pt
+padding-right = 25pt
+
+;Modules
+module-margin-left = 10pt
+module-margin-right = 10pt
+
+modules-left = cava
+modules-center =
+modules-right =
+
+[bar/bar2]
+monitor = LVDS-1
+offset-x = 15%
+offset-y = 2
+width = 15% 
+
+;Postioning and stuff
+top = true
+fixed-center = true
+height = 30
+override-redirect = true
+wm-restack = i3
+
+;Colors
+;background = #40FFFFFF
+background = #40000000
+foreground = ${colors.foreground}
+
+;font-0 = "fa-solid-900:size=10;1"
+font-0 = "fa-solid-900:size=10;1"
+font-1 = "HackNerdFontPropo-Italic:size=10;1"
+
+;Borders
+border-size = 0
+border-color = ${colors.background}
+radius = 0.0
+
+;Padding
+padding-left = 10pt
+padding-right = 25pt
+
+;Modules
+module-margin-left = 10pt
+module-margin-right = 10pt
+modules-center = workspaces
+
+[bar/bar3]
+monitor = LVDS-1
+;Postioning and stuff
+top = true
+fixed-center = true
+width = 17%
+height = 30
+override-redirect = true
+wm-restack = i3
+
+;Offsets
+offset-x = 68%
+offset-y = 2
+
+;Colors
+;background = #40FFFFFF
+background = #40000000
+foreground = ${colors.foreground}
+
+;font-0 = "fa-solid-900:size=10;1"
+font-0 = "fa-solid-900:size=10;1"
+font-1 = "HackNerdFontPropo-Italic:size=10;1"
+
+;Borders
+border-size = 0
+border-color = ${colors.background}
+radius = 0.0
+
+;Padding
+padding-left = 15pt
+padding-right = 15pt
+
+;Modules
+module-margin-left = 20pt
+module-margin-right = 2pt
+
+modules-left = xkeyboard
+modules-center = 
+modules-right = pulseaudio temperature redshift
+
+[bar/bar4]
+monitor = LVDS-1 
+;Postioning and stuff
+top = true
+fixed-center = true
+width = 9%
+height = 30
+override-redirect = true
+wm-restack = i3
+
+;Offsets
+offset-x = 88%
+offset-y = 2
+
+;Colors
+;background = #40FFFFFF
+background = #40000000
+foreground = ${colors.foreground}
+
+;font-0 = "fa-solid-900:size=10;1"
+font-0 = "fa-solid-900:size=10;1"
+font-1 = "HackNerdFontPropo-Italic:size=10;1"
+
+;orders
+border-size = 0
+border-color = ${colors.background}
+radius = 0.0
+
+;Padding
+padding-left = 10pt
+padding-right = 5pt
+
+;Modules
+module-margin-left = 8pt
+module-margin-right = 3pt
+
+modules-left = 
+modules-center =
+modules-right = battery powermenu
+
+tray-position = right
+format-margin = 8pt
+tray-spacing = 8pt
+tray-detached = true
+tray-padding = 0
+tray-maxsize = 15
+tray-transparent = true
+tray-background = ${colors.background}
+tray-offset-x = -84
+tray-offset-y = 0
+
+[bar/date]
+monitor = LVDS-1
+;Postioning and stuff
+top = true
+fixed-center = true
+width = 11%
+height = 30
+override-redirect = true
+wm-restack = i3
+
+;Offsets
+offset-x = 45%
+offset-y = 2
+
+;Colors
+;background = #40FFFFFF
+background = #40000000
+foreground = ${colors.foreground}
+
+;font-0 = "fa-solid-900:size=10;1"
+font-0 = "fa-solid-900:size=10;1"
+font-1 = "HackNerdFontPropo-Italic:size=10;1"
+
+;Borders
+border-size = 0
+border-color = ${colors.background}
+radius = 0.0
+
+;Padding
+padding-left = 10pt
+padding-right = 5pt
+
+;Modules
+module-margin-left = 8pt
+module-margin-right = 3pt
+
+modules-left = 
+modules-center = date
+modules-right = 
+
+;--------------------------------;
+
+[module/dummy]
+type = custom/text
+content = " "
+
+;;---------------------------------------;;
+[settings]
+
+screen-reload = true
+pseudo-transparency = false
+monitor = LVDS-1

@@ -1,3 +1,4 @@
+EL OSAMA OS - 24/25
 My Debian i3wm dotfiles .
 ------------------------
  : 
